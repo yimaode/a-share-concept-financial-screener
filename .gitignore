@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+
+# Editors / operating systems
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+cookies/
+*cookie*.json
+*credential*.json
+*secret*.json
+
+# Private concept inputs and intermediates
+data/guru_notes/
+concept_workspace/
+private_notes/
+outputs/concept_build/
+outputs/guru_quotes/
+
+# Downloaded reports, generated output and local market caches
+data/raw_pdfs/
+raw_pdfs/
+outputs/
+cache/
+market_cache/
+logs/
+working/
+
+# User-specific lists and local databases
+inputs/
+watchlist*
+自选股*
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated exports
+*.xlsx
+*.xls
