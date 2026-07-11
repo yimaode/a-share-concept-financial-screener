@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "market": "A-share",
+  "strategy_focus": "super_growth",
+  "language": "zh-CN",
+  "status": "draft",
+  "concepts": [
+    {
+      "concept_id": "c1",
+      "name": "C1"
+    }
+  ]
+}

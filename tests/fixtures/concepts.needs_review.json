@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "market": "A-share",
+  "strategy_focus": "super_growth",
+  "language": "zh-CN",
+  "status": "draft",
+  "concepts": [
+    {
+      "concept_id": "super_growth_stock",
+      "name": "超级成长股",
+      "status": "draft",
+      "aliases": [],
+      "source_quote_ids": [],
+      "positive_keywords": {},
+      "negative_keywords": {},
+      "hard_metrics": [],
+      "evidence_rules": {},
+      "scoring": {},
+      "evidence_count": 0,
+      "manual_review": {
+        "required": true,
+        "status": "pending",
+        "reason": "证据不足",
+        "evidence_count": 0,
+        "notes": []
+      }
+    }
+  ]
+}

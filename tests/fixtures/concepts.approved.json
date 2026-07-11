@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "market": "A-share",
+  "strategy_focus": "super_growth",
+  "language": "zh-CN",
+  "status": "draft",
+  "concepts": [
+    {
+      "concept_id": "super_growth_stock",
+      "name": "超级成长股",
+      "status": "draft",
+      "definition": "公司营收和利润持续高速增长",
+      "aliases": [],
+      "source_quote_ids": ["q1", "q2"],
+      "positive_keywords": {"growth": ["成长", "高增长"]},
+      "negative_keywords": {},
+      "hard_metrics": ["revenue_yoy"],
+      "evidence_rules": {"min_evidence_count": 2},
+      "scoring": {"high": 3},
+      "evidence_count": 2,
+      "manual_review": {
+        "required": false,
+        "status": "approved",
+        "reason": "",
+        "evidence_count": 2,
+        "notes": []
+      }
+    }
+  ]
+}
