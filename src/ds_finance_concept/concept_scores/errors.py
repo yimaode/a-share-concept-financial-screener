@@ -1,0 +1,2 @@
+class ConceptScoreError(Exception):
+    pass
