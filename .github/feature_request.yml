@@ -1,0 +1,23 @@
+name: Feature request
+description: 建议新的指标、数据源或工作流改进
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: 使用场景
+      description: 这个功能解决什么可验证的问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: 数据来源与授权
+      description: 如果涉及新数据源，请说明许可、稳定性、频率限制和缺失处理。
