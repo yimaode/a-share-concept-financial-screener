@@ -1,0 +1,8 @@
+dimension,name,status
+C,当前季度增长,pass
+A,年度增长,fail
+N,新变化,pass
+S,供需,pass
+L,领先性,unavailable
+I,机构认同,fail
+M,市场方向,unavailable

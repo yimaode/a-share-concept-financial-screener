@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a-share-concept-financial-screener"
+version = "0.1.0"
+description = "基于投资概念固化的 A 股财报量化筛选器与 Agent 工具包"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["investment-concepts", "A-share", "financial-report", "stock-screener", "CANSLIM", "AI-agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "PyMuPDF>=1.23.0",
+    "matplotlib>=3.7.0",
+    "openpyxl>=3.1.0",
+    "pdfplumber>=0.9",
+    "akshare>=1.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+concept-screener = "ds_finance_concept.cli:main"
+canslim-screener = "ds_finance_concept.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
